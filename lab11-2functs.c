@@ -7,9 +7,10 @@
 * ===========================================================
 */
 #include <stdbool.h>
+#include <ctype.h>
 
 bool isFirstHalfAlpha(char theChar) {
-    // For now, this function always returns false.  We will fix it later!
+    theChar = toupper(theChar);
     return false;
 }
 
