@@ -1,7 +1,7 @@
 /** lab11-2.c
 * ===========================================================
-* Name: Name, Date
-* Section:
+* Name: Benjamin Tat
+* Section: T6
 * Project: Lab 11-2
 * Purpose: Testing character functions implemented in Lab 11-2
 * ===========================================================
