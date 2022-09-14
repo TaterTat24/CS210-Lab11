@@ -10,8 +10,6 @@
 #include <stdio.h>
 #include <ctype.h>
 
-#include "lab"
-
 int main() {
 
     // Step 1:  Ask for the House Name

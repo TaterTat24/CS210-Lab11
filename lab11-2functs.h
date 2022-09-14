@@ -17,30 +17,30 @@
 #define MAGIC_CHAR       '@'
 
 /**
-* @brief This function takes a single character as an input argument and returns true if the character is in the range A to M or a to m (both inclusive).
-* @param 
-* @return
-* @pre
-* @post
+* @brief This function checks if input character is in the first half of the alphabet
+* @param theChar takes a single character as an input argument
+* @return Returns true if the character is in the range A to M or a to m (both inclusive).
+* @pre N/A
+* @post N/A
 */
-bool isFirstHalfAlpha();
+bool isFirstHalfAlpha(char theChar);
 
 /**
-* @brief This function takes a single character as an input argument and determines if the value is a vowel (a, e, i, o, u, y) or consonant.
-* @param 
-* @return
-* @pre
-* @post
+* @brief This function checks if input character is a vowel, constant, or neither
+* @param theChar takes a single character as an input argument
+* @return Returns value if the input character is a vowel, constant, or not a alphabet character
+* @pre N/A
+* @post N/A
 */
-int typeOfChar();
+int typeOfChar(char theChar);
 
 /**
-* @brief This function takes a single character as an input argument and determines if the value is 'the magic character' (to be defined later).
-* @param 
-* @return
+* @brief This function checks if the input argument is 'the magic character' (to be defined later).
+* @param theChar takes a single character as an input argument
+* @return Returns value if the input character is 'the magic character'
 * @pre
 * @post
 */
-bool isMagicChar();
+bool isMagicChar(char theChar);
 
 #endif
