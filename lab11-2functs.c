@@ -7,11 +7,17 @@
 * ===========================================================
 */
 #include <stdbool.h>
-#include <ctype.h>
+#include <ctype.h>  
 
 bool isFirstHalfAlpha(char theChar) {
     theChar = toupper(theChar);
-    return false;
+    printf("%d", theChar); 
+    if ((theChar >= 97) && (theChar <= 110)) {
+        return true;
+    }
+    else {
+        return false;
+    }
 }
 
 int typeOfChar() {
